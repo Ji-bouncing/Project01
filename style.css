@@ -73,6 +73,9 @@ header + section > ul a{
   height: 150px;
   width:150px;
   border-radius: 7px;
+  display:block;
+  margin:0 auto;
+  border-left:20px solid lightpink;
 
 }
 .emptyText{
@@ -106,7 +109,7 @@ form input,textarea{
   text-align: left;
   background: rgba(0, 0, 0, 0.7);
   color:white;
-  height:600px;
+  height:610px;
   border-radius:7px;
   
 }
@@ -157,3 +160,5 @@ footer a{
 .topToo{
   margin: 2% 5% 0 0;
 }
+
+
