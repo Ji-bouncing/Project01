@@ -70,8 +70,8 @@ header + section > ul a{
   border-bottom: 2px solid white;
 }
 .displayImage{
-  height: 150px;
-  width:150px;
+  height: 350px;
+  width:300px;
   border-radius: 7px;
   display:block;
   margin:0 auto;
@@ -161,4 +161,12 @@ footer a{
   margin: 2% 5% 0 0;
 }
 
-
+@media (min-width:600px;) and (max-width:1608px;){
+  html{
+  font-size:62.5%;
+  width:100%;
+}
+header > h1{
+  font-size: 10rem;
+}
+}
